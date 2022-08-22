@@ -16,6 +16,7 @@ import Personal from './components/Personal.vue'
         <li class="nav-item">
           <a class="nav-link active text-white" aria-current="page" href="/">Personal</a>
         </li>
+
         <li class="nav-item ">
           <a class="nav-link text-white" href="/skill">Skills</a>
         </li>

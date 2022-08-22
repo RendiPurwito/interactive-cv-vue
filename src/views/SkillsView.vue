@@ -67,7 +67,10 @@
     .skill {
       min-height: 100vh;
       margin-top: 2rem;
-      text-align: center;
+    }
+
+    .skill h3 {
+      margin-left: 100px;
     }
 
     .skill ul {
@@ -78,32 +81,36 @@
       margin: 20px 100px;
     }
 
+    .skill-list h6 {
+      margin-left: 100px;
+    }
+
     .html {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .css {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .bootstrap {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .javascript {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .sql {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .php {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .laravel {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .progress {
