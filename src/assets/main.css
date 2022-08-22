@@ -1,0 +1,26 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #0062bd;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 94%, 6%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    place-items: center;
+  }
+
+}
