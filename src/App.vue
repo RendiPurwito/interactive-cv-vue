@@ -1,12 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import Personal from './components/Personal.vue'
+import Footer from './components/Footer.vue'
+import Menu from './components/Menu.vue'
 </script>
 
 <template>
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
+  <!-- <nav class="navbar navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="@/assets/logo.svg" alt="" width="30" height="24">
@@ -23,7 +24,7 @@ import Personal from './components/Personal.vue'
       </ul>
     </div>
   </div>
-  </nav>
+  </nav> -->
 
   <header>
     <!-- <img alt="Foto" class="img-circle" src="@/assets/Foto CV.png" width="150"/> -->
@@ -33,7 +34,9 @@ import Personal from './components/Personal.vue'
     </div>
   </header>
 
+  <Menu />
   <RouterView />
+  <Footer />
 </template>
 
 <style scoped>
@@ -50,8 +53,8 @@ header {
   display: block;
   margin: 0 auto 2rem;
   border: 1px solid black;
-  width: 350px;
-	height: 200px;
+  width: 270px;
+	height: 170px;
   background-image: url('@/assets/Foto CV.png');
   background-size: cover;
   background-position: center center;

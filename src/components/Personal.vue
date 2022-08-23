@@ -9,7 +9,7 @@
 
 <template>
   <div class="greetings">
-    <h2 class="green">{{ msg }}</h2>
+    <h3 class="green">{{ msg }}</h3>
     <h4>Web Developer</h4>
     <h6>A high school student in computer engineering. I have several programming language skills, interested to working in the IT field for the position of Web Developer</h6>
     <hr>
